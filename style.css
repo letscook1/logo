@@ -38,5 +38,14 @@ body {
 }
 
 #box {
+  width: 1100px;
+  height: 600px;
+  background-color: yellow;
+  border: 5px solid black;
+  padding: 50px;
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
 }
